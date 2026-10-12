@@ -1,0 +1,33 @@
+{
+  "name": "@red-cup-engineering/static-site-conformance-service",
+  "version": "0.1.1",
+  "description": "Check static-site inventory links and probe deployed release manifests.",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./src/static-site-conformance.mjs"
+    }
+  },
+  "bin": {
+    "probe-static-site-release": "./scripts/probe-static-site-release.mjs"
+  },
+  "files": [
+    "src",
+    "scripts",
+    "README.md"
+  ],
+  "scripts": {
+    "check": "node --check src/static-site-conformance.mjs && node --check scripts/probe-static-site-release.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=22.18"
+  },
+  "sideEffects": false,
+  "dependencies": {
+    "@red-cup-engineering/json-services-section": "workspace:*",
+    "@red-cup-engineering/uri-services-section": "workspace:*",
+    "@red-cup-engineering/web-release-candidate-service": "workspace:*"
+  },
+  "license": "UNLICENSED"
+}
