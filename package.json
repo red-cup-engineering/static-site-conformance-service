@@ -2,6 +2,11 @@
   "name": "@red-cup-engineering/static-site-conformance-service",
   "version": "0.1.2",
   "description": "Check static-site inventory links and probe deployed release manifests.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/red-cup-engineering/computer-systems-engineering-services-section.git",
+    "directory": "services/computer-systems-publishing-engineering-services-section/services/static-site-conformance-service"
+  },
   "type": "module",
   "exports": {
     ".": {
