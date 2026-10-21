@@ -33,6 +33,10 @@
     "@red-cup-engineering/uri-services-section": "0.1.1",
     "@red-cup-engineering/web-release-candidate-service": "0.3.2"
   },
-  "license": "UNLICENSED",
-  "private": false
+  "license": "MIT",
+  "private": false,
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/561-group/.github/blob/main/TIPS.md"
+  }
 }
