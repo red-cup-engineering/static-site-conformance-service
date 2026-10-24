@@ -29,8 +29,8 @@
   },
   "sideEffects": false,
   "dependencies": {
-    "@red-cup-engineering/json-services-section": "0.4.0",
-    "@red-cup-engineering/uri-services-section": "0.1.1",
+    "@red-cup-engineering/json-engineering-services-section": "0.4.0",
+    "@red-cup-engineering/uri-engineering-services-section": "0.1.1",
     "@red-cup-engineering/web-release-candidate-service": "0.3.2"
   },
   "license": "MIT",
